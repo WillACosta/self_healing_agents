@@ -108,7 +108,7 @@
             "uid": "prometheus"
           },
           "editorMode": "code",
-          "expr": "rate(http_request_duration_seconds_sum{handler=\"/checkout\"}[5m]) / rate(http_request_duration_seconds_count{handler=\"/checkout\"}[5m])",
+          "expr": "rate(http_request_duration_seconds_sum{handler=\"/checkout\"}[1m]) / rate(http_request_duration_seconds_count{handler=\"/checkout\"}[1m])",
           "instant": false,
           "legendFormat": "Average Latency (/checkout)",
           "range": true,
@@ -167,7 +167,7 @@
             "uid": "prometheus"
           },
           "editorMode": "code",
-          "expr": "sum(rate(http_requests_total[5m])) by (handler)",
+          "expr": "sum(rate(http_requests_total[1m])) by (handler)",
           "instant": false,
           "legendFormat": "{{handler}}",
           "range": true,

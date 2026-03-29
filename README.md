@@ -26,6 +26,7 @@ This repository contains a "Fake Plant Shop" API designed with intentional perfo
    ```
 
 ### Access Points
+
 - **API:** [http://localhost:8000](http://localhost:8000)
 - **Interactive Docs (Swagger):** [http://localhost:8000/docs](http://localhost:8000/docs)
 - **Metrics (Prometheus format):** [http://localhost:8000/metrics](http://localhost:8000/metrics)
@@ -33,8 +34,8 @@ This repository contains a "Fake Plant Shop" API designed with intentional perfo
 - **Grafana Dashboard:** [http://localhost:3000](http://localhost:3000) (Login: Anonymous Admin enabled)
 
 ### Visualizing Performance
-The Grafana instance comes pre-provisioned with an **API Performance Dashboard**. 
+
+The Grafana instance comes pre-provisioned with an **API Performance Dashboard**.
+
 - It monitors the average latency of the `/checkout` endpoint.
 - **Red Alert Threshold:** The graph background/line will turn red when the latency exceeds 1 second, providing a visual cue for the performance issues we've intentionally introduced.
-
-
