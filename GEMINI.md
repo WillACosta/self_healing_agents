@@ -32,7 +32,11 @@ The system aims to autonomously identify, diagnose, and propose solutions for pe
 ## Guidance for Agents
 
 When interacting with this project, agents should:
-
 - Prioritize surgical code reads over full-file reads.
 - Use logs and metrics as the primary entry point for debugging.
 - Ensure all proposed fixes include a justification based on the provided metrics.
+
+## Project Guidelines
+
+- **Commit Messages:** All commits must follow the [commitlint](https://commitlint.js.org/) format (e.g., `feat: add observability stack`, `fix: correct database seeding logic`).
+
