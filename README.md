@@ -26,12 +26,15 @@ This repository contains a "Fake Plant Shop" API designed with intentional perfo
    ```
 
 ### Access Points
-
 - **API:** [http://localhost:8000](http://localhost:8000)
 - **Interactive Docs (Swagger):** [http://localhost:8000/docs](http://localhost:8000/docs)
 - **Metrics (Prometheus format):** [http://localhost:8000/metrics](http://localhost:8000/metrics)
 - **Prometheus Dashboard:** [http://localhost:9090](http://localhost:9090)
+- **Grafana Dashboard:** [http://localhost:3000](http://localhost:3000) (Login: Anonymous Admin enabled)
 
-### Testing
+### Visualizing Performance
+The Grafana instance comes pre-provisioned with an **API Performance Dashboard**. 
+- It monitors the average latency of the `/checkout` endpoint.
+- **Red Alert Threshold:** The graph background/line will turn red when the latency exceeds 1 second, providing a visual cue for the performance issues we've intentionally introduced.
 
-Import `insomnia_collection.json` into your REST client to quickly test the endpoints and trigger the intentional bottlenecks.
+
