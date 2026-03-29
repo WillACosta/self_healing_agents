@@ -13,6 +13,8 @@ Then a **coding_agent** will be invoked to propose a fix or refactor to that spe
 
 After that it will generate a `solution.md` with the suggestions.
 
+![agentic_workflow](assets/agentic_workflow.png)
+
 ## Key decisions
 
 - We need to implement a way to observe the metrics in the running application, and feed the **performance_agent** with them to look for possible issues. Possible solution: Use cloud functions to schedule analysis.
