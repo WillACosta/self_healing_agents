@@ -2,6 +2,8 @@
 
 An autonomous system proof-of-concept that observes, diagnoses, and repairs performance bottlenecks in a FastAPI application using a multi-agent orchestration.
 
+![Agentic Workflow](assets/agentic_workflow.png)
+
 ## Project Overview
 
 This repository contains a "Fake Plant Shop" API designed with intentional performance issues. It serves as a playground for:
