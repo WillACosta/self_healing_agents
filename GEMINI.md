@@ -39,4 +39,3 @@ When interacting with this project, agents should:
 ## Project Guidelines
 
 - **Commit Messages:** All commits must follow the [commitlint](https://commitlint.js.org/) format (e.g., `feat: add observability stack`, `fix: correct database seeding logic`).
-
